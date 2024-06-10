@@ -6,7 +6,7 @@ int main(){
     char arr[20];
     printf("enter your string : ");
     gets(arr);                                       // function calling
-
+    
     int n = len(arr);
     printf("length of your string is %d",n);
     return 0;
